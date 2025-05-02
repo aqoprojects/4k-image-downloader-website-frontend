@@ -1,0 +1,55 @@
+
+.photo-full-screen-mode{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.692);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 120;
+}
+
+.photo-wrapper{
+  width: 70%;
+}
+
+.full-screen-image{
+  width: 100%;
+  height: 700px;
+  object-fit: contain;
+}
+
+.full-screen-close{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid white;
+  background-color: white;
+  margin: 0 auto;
+  cursor: pointer;
+}
+/* 
+.no-scroll{
+  overflow: hidden;
+} */
+
+.hidden{
+  display: none;
+}
+
+
+
+@media (max-width: 767px) {
+  .photo-wrapper{
+    width: 90%;
+  }
+  
+  .full-screen-image{
+    width: 100%;
+    object-fit: contain;
+  }
+}
