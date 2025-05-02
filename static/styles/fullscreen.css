@@ -32,10 +32,10 @@
   margin: 0 auto;
   cursor: pointer;
 }
-/* 
+
 .no-scroll{
   overflow: hidden;
-} */
+}
 
 .hidden{
   display: none;
